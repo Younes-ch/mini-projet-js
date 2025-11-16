@@ -1,0 +1,164 @@
+<section class="hero">
+    <h1>Bienvenue sur TechMag</h1>
+    <p>Votre magazine digital pour rester à jour avec les dernières tendances</p>
+</section>
+
+<!-- Carrousel d'images -->
+<section class="carousel-section">
+    <h2>À la Une</h2>
+    <div class="carousel">
+        <button class="carousel-btn prev" aria-label="Previous">‹</button>
+        <div class="carousel-container">
+            <div class="carousel-track">
+                <div class="carousel-slide active">
+                    <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&h=400&fit=crop"
+                        alt="Intelligence Artificielle">
+                    <div class="carousel-caption">
+                        <h3>L'IA révolutionne le monde</h3>
+                        <p>Découvrez comment l'intelligence artificielle transforme notre quotidien</p>
+                    </div>
+                </div>
+                <div class="carousel-slide">
+                    <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=400&fit=crop"
+                        alt="Espace">
+                    <div class="carousel-caption">
+                        <h3>Exploration spatiale</h3>
+                        <p>Les nouvelles frontières de l'espace en 2025</p>
+                    </div>
+                </div>
+                <div class="carousel-slide">
+                    <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&h=400&fit=crop"
+                        alt="Innovation">
+                    <div class="carousel-caption">
+                        <h3>Innovation technologique</h3>
+                        <p>Les gadgets qui changeront votre vie</p>
+                    </div>
+                </div>
+                <div class="carousel-slide">
+                    <img src="https://images.unsplash.com/photo-1535378917042-10a22c95931a?w=800&h=400&fit=crop"
+                        alt="Réalité Virtuelle">
+                    <div class="carousel-caption">
+                        <h3>Réalité Virtuelle</h3>
+                        <p>Plongez dans des mondes immersifs</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-btn next" aria-label="Next">›</button>
+        <div class="carousel-indicators"></div>
+    </div>
+</section>
+
+<!-- Articles avec likes et commentaires -->
+<section class="articles">
+    <h2>Articles Populaires</h2>
+    <div class="articles-grid">
+        <article class="article-card" data-article-id="1">
+            <img src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=400&h=250&fit=crop"
+                alt="Article 1">
+            <div class="article-content">
+                <h3>La révolution quantique</h3>
+                <p>Les ordinateurs quantiques promettent de résoudre des problèmes impossibles pour les machines
+                    classiques...</p>
+                <div class="article-meta">
+                    <button class="like-btn" data-article-id="1">
+                        <span class="heart">♡</span>
+                        <span class="like-count">0</span> J'aime
+                    </button>
+                    <button class="comment-toggle" data-article-id="1">
+                        💬 <span class="comment-count">0</span> Commentaires
+                    </button>
+                </div>
+                <div class="comments-section" data-article-id="1" style="display: none;">
+                    <div class="comments-list"></div>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Votre nom" class="comment-name" required>
+                        <textarea placeholder="Votre commentaire..." class="comment-text" required></textarea>
+                        <button type="submit">Publier</button>
+                    </form>
+                </div>
+            </div>
+        </article>
+
+        <article class="article-card" data-article-id="2">
+            <img src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=400&h=250&fit=crop"
+                alt="Article 2">
+            <div class="article-content">
+                <h3>5G et l'avenir de la connectivité</h3>
+                <p>Comment la 5G va transformer notre façon de communiquer et d'interagir avec le monde...</p>
+                <div class="article-meta">
+                    <button class="like-btn" data-article-id="2">
+                        <span class="heart">♡</span>
+                        <span class="like-count">0</span> J'aime
+                    </button>
+                    <button class="comment-toggle" data-article-id="2">
+                        💬 <span class="comment-count">0</span> Commentaires
+                    </button>
+                </div>
+                <div class="comments-section" data-article-id="2" style="display: none;">
+                    <div class="comments-list"></div>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Votre nom" class="comment-name" required>
+                        <textarea placeholder="Votre commentaire..." class="comment-text" required></textarea>
+                        <button type="submit">Publier</button>
+                    </form>
+                </div>
+            </div>
+        </article>
+
+        <article class="article-card" data-article-id="3">
+            <img src="https://images.unsplash.com/photo-1593508512255-86ab42a8e620?w=400&h=250&fit=crop"
+                alt="Article 3">
+            <div class="article-content">
+                <h3>Voitures autonomes</h3>
+                <p>Les véhicules sans conducteur arrivent plus vite que prévu. Êtes-vous prêt pour cette révolution ?
+                </p>
+                <div class="article-meta">
+                    <button class="like-btn" data-article-id="3">
+                        <span class="heart">♡</span>
+                        <span class="like-count">0</span> J'aime
+                    </button>
+                    <button class="comment-toggle" data-article-id="3">
+                        💬 <span class="comment-count">0</span> Commentaires
+                    </button>
+                </div>
+                <div class="comments-section" data-article-id="3" style="display: none;">
+                    <div class="comments-list"></div>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Votre nom" class="comment-name" required>
+                        <textarea placeholder="Votre commentaire..." class="comment-text" required></textarea>
+                        <button type="submit">Publier</button>
+                    </form>
+                </div>
+            </div>
+        </article>
+    </div>
+</section>
+
+<!-- Témoignages automatiques -->
+<section class="testimonials">
+    <h2>Ce que disent nos lecteurs</h2>
+    <div class="testimonials-container">
+        <div class="testimonial active">
+            <p>"TechMag est ma source d'information préférée pour tout ce qui concerne la technologie. Articles de
+                qualité et toujours à jour !"</p>
+            <div class="testimonial-author">- Sophie Martin</div>
+        </div>
+        <div class="testimonial">
+            <p>"Une approche moderne et accessible des sujets tech. Je recommande vivement ce magazine à tous les
+                passionnés !"</p>
+            <div class="testimonial-author">- Pierre Dubois</div>
+        </div>
+        <div class="testimonial">
+            <p>"Excellente qualité de contenu. Les analyses sont pertinentes et bien documentées. Bravo à toute l'équipe
+                !"</p>
+            <div class="testimonial-author">- Marie Leroy</div>
+        </div>
+        <div class="testimonial">
+            <p>"Grâce à TechMag, je reste informé des dernières tendances technologiques. Un vrai plaisir de lecture !"
+            </p>
+            <div class="testimonial-author">- Thomas Bernard</div>
+        </div>
+    </div>
+    <div class="testimonial-dots"></div>
+</section>
