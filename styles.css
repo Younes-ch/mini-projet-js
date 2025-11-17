@@ -340,6 +340,10 @@ body {
     transition: var(--transition);
 }
 
+.heart::before {
+    content: '♡';
+}
+
 .like-btn.liked .heart::before {
     content: '❤';
 }
